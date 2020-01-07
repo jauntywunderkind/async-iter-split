@@ -4,7 +4,7 @@
 	"description": "split an incoming iterator into lines",
 	"main": "async-iter-split.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": ".test/index.js"
 	},
 	"repository": {
 		"type": "git",
@@ -16,7 +16,7 @@
 	"module": "async-iter-split.js",
 	"esm": true,
 	"type": "module",
-	"dependencies": {
-		"split2": "^3.1.1"
+	"devDependencies": {
+		"tape": "^4.12.1"
 	}
 }
