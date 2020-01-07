@@ -1,0 +1,22 @@
+{
+	"name": "async-iter-split",
+	"version": "1.0.0",
+	"description": "split an incoming iterator into lines",
+	"main": "async-iter-split.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.eldergods.com/async-iter-split"
+	},
+	"keywords": [],
+	"author": "jauntywunderkind",
+	"license": "MIT",
+	"module": "async-iter-split.js",
+	"esm": true,
+	"type": "module",
+	"dependencies": {
+		"split2": "^3.1.1"
+	}
+}
